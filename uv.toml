@@ -1,2 +1,0 @@
-[uv.sources]
-parsifal = { path = "../parsifal", editable = true }
