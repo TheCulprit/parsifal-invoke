@@ -4,12 +4,6 @@ version = "1.0.0"
 description = "InvokeAI Node for Parsifal Text Generation"
 authors = [{ name = "TheCulprit" }]
 requires-python = ">=3.10"
-dependencies = [
-    "parsifal" 
-]
-
-[tool.uv.sources]
-parsifal = { git = "https://github.com/TheCulprit/parsifal.git" }
 
 [build-system]
 requires = ["hatchling"]

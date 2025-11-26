@@ -11,7 +11,7 @@ from invokeai.invocation_api import (
 )
 
 # Import the separated logic
-from parsifal import GrammarParser, StopParsingException
+from .engine import GrammarParser, StopParsingException
 
 @invocation_output("parsifal_output")
 class ParsifalOutput(BaseInvocationOutput):
